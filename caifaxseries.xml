@@ -49,6 +49,103 @@
 
 
 <item>
+<title>CAPITULO 2 </title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/r8e25gwoguac</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/r8e25gwoguac</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/r8e25gwoguac</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+
+
+<item>
+<title>CAPITULO 3</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/w7l0ocuee8j2</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/w7l0ocuee8j2</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/w7l0ocuee8j2</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+
+
+
+<item>
+<title>CAPITULO 4</title>
+<urlsolve>http://streamcloud.eu/ipqgu3wmh8tq</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item>
+
+<item>
+<title>CAPITULO 5</title>
+<urlsolve>http://streamcloud.eu/p0oar2oxqpu0</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item>
+
+<item>
+<title>CAPITULO 6</title>
+<urlsolve>http://streamcloud.eu/lho8fqnfr9om</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item>
+
+<item>
+<title>CAPITULO 7</title>
+<urlsolve>http://streamcloud.eu/5arfpdty9oto</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item>
+
+<item>
+<title>CAPITULO 8</title>
+<urlsolve>http://streamcloud.eu/muxsva3b7g80</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item>
+
+<item>
+<title>CAPITULO 9</title>
+<urlsolve>http://streamcloud.eu/8yd2yvn9ro6c</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item>
+
+
+
+<item>
 <title>CAPITULO 10</title>
 <urlsolve>http://streamcloud.eu/v610mr85jzaf/</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
@@ -57,57 +154,316 @@
 <info></info>
 </item>
 
-
 <item>
-<title>CAPITULO 10</title>
-<urlsolve>http://gamovideo.com/5aztorqhnupp/</urlsolve>
+<title>CAPITULO 11</title>
+<urlsolve>http://streamcloud.eu/v610mr85jzaf</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
 <info></info>
 </item>
- 
- 
+
 <item>
-<title>CAPITULO 11</title>
-<urlsolve>http://streamcloud.eu/v610mr85jzaf/SSParaiso.1x11.720.Lat.mp4.html</urlsolve>
-<thumbnail></thumbnail>
+<title>CAPITULO 12</title>
+<urlsolve>http://streamcloud.eu/jhqrnixkhsdf</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
 <info></info>
 </item>
+<item>
+<title>CAPITULO 13</title>
+<urlsolve>http://streamcloud.eu/56cshcx6er12</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 14</title>
+<urlsolve>http://streamcloud.eu/s6mbgrvsgwz7</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 15</title>
+<urlsolve>http://streamcloud.eu/8da15vp24i1e</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 16</title>
+<urlsolve>http://streamcloud.eu/6hrw4cw2vsdk</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 17</title>
+<urlsolve>http://streamcloud.eu/a9osy81nyhht</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 18</title>
+<urlsolve>http://streamcloud.eu/nc4xmza2mq2q</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 19</title>
+<urlsolve>http://streamcloud.eu/jzmunk6gq3br</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 20</title>
+<urlsolve>http://streamcloud.eu/yl3pmhe6qlls</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 21</title>
+<urlsolve>http://streamcloud.eu/l14873zzovov</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 22</title>
+<urlsolve>http://streamcloud.eu/e7x7c6gv33s8</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+
 
 <item>
-<title>TEST URL=http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</title>
-<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</link>
+<title>CAPITULO 23</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/embed-7kjvtrt5w71y-0x400.html</link>
 
 <regex>
 <name>video</name>
 <expres>file: "(rtmp.*?h=.*?)\/</expres>
-<page>http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</page>
+<page>http://gamovideo.com/embed-7kjvtrt5w71y-0x400.html</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
 </regex>
 
 <regex>
 <name>path</name>
 <expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
-<page>http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</page>
+<page>http://gamovideo.com/embed-7kjvtrt5w71y-0x400.html</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+<title>CAPITULO 24</title>
+<urlsolve>http://streamcloud.eu/s2f9aya2bilz</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 25</title>
+<urlsolve>http://streamcloud.eu/hjy3jxfxloso</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 26</title>
+<urlsolve>http://streamcloud.eu/8ooeqe8hyz8h</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 27</title>
+<urlsolve>http://streamcloud.eu/dahj4u8kv8ck</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 28</title>
+<urlsolve>http://streamcloud.eu/wjy5s0fbymvu</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 29</title>
+<urlsolve>http://streamcloud.eu/kt1ehvnjedap</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 30</title>
+<urlsolve>http://streamcloud.eu/hvpy4320pi61</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 31</title>
+<urlsolve>http://streamcloud.eu/q89vn0c50w5m</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 32</title>
+<urlsolve>http://streamcloud.eu/ltj77l5peiur</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 33</title>
+<urlsolve>http://streamcloud.eu/b7c4vdqkz1rk</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 34</title>
+<urlsolve>http://streamcloud.eu/dourg3l3ybud</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 35</title>
+<urlsolve>http://streamcloud.eu/didz6tthgtj7</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+<title>CAPITULO 36</title>
+<urlsolve>http://streamcloud.eu/3eqc3okeo0ba</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+
+
+<item>
+<title>CAPITULO 37</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/embed-xrolpnm5ccs6-600x360.html</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/embed-xrolpnm5ccs6-600x360.html</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/embed-xrolpnm5ccs6-600x360.html</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+
+<item>
+<title>CAPITULO 38</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/jbl69k6280a6</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/jbl69k6280a6</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/jbl69k6280a6</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+
+<title>CAPITULO 39</title>
+<urlsolve>http://streamcloud.eu/itiq46yfzfii</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+
+<title>CAPITULO 40</title>
+<urlsolve>http://streamcloud.eu/i86bbo8l7yt6"</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+
+<title>CAPITULO 41</title>
+<urlsolve>http://streamcloud.eu/1psc6lcjjdag</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+
+<title>CAPITULO 42</title>
+<urlsolve>http://streamcloud.eu/90bbk14nj1ul</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
+
+<item>
+<title>CAPITULO 43</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/7xap5zv4pm5v</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/7xap5zv4pm5v</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/7xap5zv4pm5v</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+
+<item>
+<title>CAPITULO 1</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/5aztorqhnupp</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/5aztorqhnupp</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/5aztorqhnupp</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
 </regex>
 </item>
 
 
- 
- 
-
-</items>
-</channel>
-
-<channel>
-<name>CINE</name>
-<Thumbnail>*****</thumbnail>
-<fanart>*******</fanart>
-<items>
 
 </items>
  
