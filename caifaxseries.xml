@@ -27,86 +27,26 @@
 <items>
 
 
+
 <item>
 <title>CAPITULO 1</title>
-<urlsolve>http://streamplay.to/embed-aalxt63brp32-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year>2016</year>
-<info></info>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/5aztorqhnupp</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/5aztorqhnupp</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/5aztorqhnupp</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
 </item>
 
-<item>
-<title>CAPITULO 2</title>
-<urlsolve>http://streamplay.to/embed-nn3emtbrb3no-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year>2016</year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 3</title>
-<urlsolve>http://streamplay.to/embed-b76jbbu6thrn-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 4</title>
-<urlsolve>http://streamplay.to/embed-51adpg1l4zs0-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 5</title>
-<urlsolve>http://streamplay.to/embed-pfqczupk6z8v-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 6</title>
-<urlsolve>http://streamplay.to/embed-sha2sk7tkjrt-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 7</title>
-<urlsolve>http://streamplay.to/embed-eejr5wug9fus-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 8 </title>
-<urlsolve>http://streamplay.to/embed-a955n38ji41s-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
-
-<item>
-<title>CAPITULO 9</title>
-<urlsolve>http://streamplay.to/embed-7c3t5v257epd-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
 
 <item>
 <title>CAPITULO 10</title>
