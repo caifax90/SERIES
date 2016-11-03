@@ -130,7 +130,24 @@
 <info></info>
 </item>
 
+<item>
+<title>TEST URL=http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</link>
 
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/embed-2b90bu9e3cjo-600x360.html</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
 
 
  
