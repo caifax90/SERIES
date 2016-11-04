@@ -268,7 +268,8 @@
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
 <info></info>
-</item><item>
+</item>
+<item>
 <title>CAPITULO 25</title>
 <urlsolve>http://streamcloud.eu/hjy3jxfxloso</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
@@ -445,7 +446,26 @@
 </item>
 
 <item>
-<title>CAPITULO 1</title>
+<title>CAPITULO 44</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/e53ut1b99tur</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>http://gamovideo.com/e53ut1b99tur</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/e53ut1b99tur</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+</item>
+
+<item>
+<title>CAPITULO 45</title>
 <link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/5aztorqhnupp</link>
 
 <regex>
@@ -462,7 +482,6 @@
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
 </regex>
 </item>
-
 
 
 </items>
