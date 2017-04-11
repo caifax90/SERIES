@@ -28,67 +28,13 @@
 
 
 
+
+
+
+
 <item>
 <title>CAPITULO 1</title>
-<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://streamplay.to/embed-pyljno1itg04-740x360.html pageUrl=http://streamplay.to/embed-pyljno1itg04-740x360.html</link>
-
-<regex>
-<name>video</name>
-<expres>file: "(rtmp.*?h=.*?)\/</expres>
-<page>http://streamplay.to/embed-pyljno1itg04-740x360.html</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
-</regex>
-
-<regex>
-<name>path</name>
-<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
-<page>http://streamplay.to/embed-pyljno1itg04-740x360.html</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
-</regex>
-</item>
-
-
-<item>
-<title>CAPITULO 10</title>                   
-<link>$doregex[id]</link>
-<regex>
-<name>id</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://streamplay.to/embed-pyljno1itg04-740x360.html'):
-    import urlresolver
-    u = urlresolver.resolve(url)
-    return u
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-</item>
-
-
-<item>
-<title>CAPITULO 3</title>
-<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/w7l0ocuee8j2</link>
-
-<regex>
-<name>video</name>
-<expres>file: "(rtmp.*?h=.*?)\/</expres>
-<page>http://gamovideo.com/w7l0ocuee8j2</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
-</regex>
-
-<regex>
-<name>path</name>
-<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
-<page>http://gamovideo.com/w7l0ocuee8j2</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
-</regex>
-</item>
-
-
-
-<item>
-<title>CAPITULO 4</title>
-<urlsolve>http://streamplay.to/embed-pyljno1itg04-740x360.html</urlsolve>
+<urlsolve>http://gamovideo.com/embed-edyd6kh9b5ko-600x400.html</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
