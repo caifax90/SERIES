@@ -30,19 +30,19 @@
 
 <item>
 <title>CAPITULO 1</title>
-<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://www.tunovela.cc/embed/320427/ pageUrl=http://www.tunovela.cc/embed/320427/</link>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://streamplay.to/embed-pyljno1itg04-740x360.html pageUrl=http://streamplay.to/embed-pyljno1itg04-740x360.html</link>
 
 <regex>
 <name>video</name>
 <expres>file: "(rtmp.*?h=.*?)\/</expres>
-<page>http://www.tunovela.cc/embed/320427/</page>
+<page>http://streamplay.to/embed-pyljno1itg04-740x360.html</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
 </regex>
 
 <regex>
 <name>path</name>
 <expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
-<page>http://www.tunovela.cc/embed/320427/</page>
+<page>http://streamplay.to/embed-pyljno1itg04-740x360.html</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
 </regex>
 </item>
@@ -88,7 +88,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://streamplay.to/embed-pyljno1i
 
 <item>
 <title>CAPITULO 4</title>
-<urlsolve>http://streamcloud.eu/ipqgu3wmh8tq</urlsolve>
+<urlsolve>http://streamplay.to/embed-pyljno1itg04-740x360.html</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
