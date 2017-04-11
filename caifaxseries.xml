@@ -30,7 +30,7 @@
 
 <item>
 <title>CAPITULO 1</title>
-<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://www.tunovela.cc/embed/320427/</link>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://www.tunovela.cc/embed/320427/ pageUrl=http://www.tunovela.cc/embed/320427/</link>
 
 <regex>
 <name>video</name>
