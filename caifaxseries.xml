@@ -42,23 +42,12 @@
 </regex>
 </item>
 
-<item>
-<title>TEST 2</title>
-<link>$doregex[m3u8]</link>
-<thumbnail>http://www.cox.com/wcm/en/video/tv/bein-sport/bein-tv-sp-promo.jpg</thumbnail>
-<fanart>http://www.cox.com/wcm/en/video/tv/bein-sport/bein-tv-sp-promo.jpg<fanart>
-<regex>
-<name>m3u8</name>
-<expres>[",\'](http.*m3u8[^"']+)[",\']</expres>
-<page>$doregex[getPage]</page>
-<referer>http://www.tunovela.cc/embed/328001/</referer>
-</regex>
-<regex>
-<name>getPage</name>
-<expres>src=[",\'](.*?php)[",\']</expres>
-<page>http://www.tunovela.cc/embed/328001/</page>
-<referer>http://www.tunovela.cc/embed/328001/</referer>
-</regex>
+item>
+<title>YO ME LLAMO</title>
+<link>http://www.tunovela.cc/embed/415418/|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.tunovela.cc/capitulo/yo-me-llamo-2017-capitulo-1/</link>
+<thumbnail>http://www.lg.com/es/mp-resources/images/posventa/microsites/television/canal-la-1-hd-desaparece-sintonizar/la-1-HD-desaparece-mayo-2015-sintonizar_1429.jpg</thumbnail>
+<fanart>http://tecnotv.info/plugin/fanart.jpg</fanart>
+<info></info>
 </item>
 
 <item>
