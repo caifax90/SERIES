@@ -49,21 +49,18 @@
 
 
 <item>
-<title>CAPITULO 2 </title>
-<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/r8e25gwoguac</link>
-
+<title>tunovela.cc| urlresolver</title>                   
+<link>$doregex[id]</link>
 <regex>
-<name>video</name>
-<expres>file: "(rtmp.*?h=.*?)\/</expres>
-<page>http://gamovideo.com/r8e25gwoguac</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
-</regex>
-
-<regex>
-<name>path</name>
-<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
-<page>http://gamovideo.com/r8e25gwoguac</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://www.tunovela.cc/embed/332260/'):
+    import urlresolver
+    u = urlresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
 </regex>
 </item>
 
