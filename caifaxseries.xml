@@ -32,15 +32,7 @@
 
 
 
-<item>
-<title>function test</title>
-<link>$doregex[getStream]</link>
-<regex>
-<name>getStream</name>
-<expres>$pyFunction:streamm.myFunct('http://www.tunovela.cc/embed/328001/')</expres>
-<page></page>
-</regex>
-</item>
+
 
 <item>
 <title>YO ME LLAMO</title>
