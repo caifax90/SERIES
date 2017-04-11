@@ -33,13 +33,14 @@
 
 
 <item>
-<title>CAPITULO 1</title>
-<urlsolve>http://streamplay.to/embed-pyljno1itg04-740x360.html</urlsolve>
-<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
-<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
-<year></year>
-<info></info>
-</item>
+<title>function test</title>
+<link>$doregex[getStream]</link>
+<regex>
+<name>getStream</name>
+<expres>$pyFunction:streamm.myFunct('http://www.tunovela.cc/embed/328001/')</expres>
+<page></page>
+</regex>
+</item
 
 <item>
 <title>CAPITULO 12</title>
