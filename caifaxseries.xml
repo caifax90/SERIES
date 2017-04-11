@@ -29,14 +29,29 @@
 
 
 
-
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR orangered][B] Regex tu novela[/B][/COLOR] </title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.tunovela.cc</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.tunovela.cc/embed/415418/</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.tunovela.cc/capitulo/yo-me-llamo-2017-capitulo-1/</referer>
+</regex>
+<thumbnail>http://y.cdn.entutele.com/media/channels/big/golden-hd.gif</thumbnail></item>
 
 
 
 
 <item>
 <title>YO ME LLAMO</title>
-<link>http://www.tunovela.cc/embed/415418.m3u8|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.tunovela.cc/capitulo/yo-me-llamo-2017-capitulo-1/</link>
+<link>http://www.tunovela.cc/embed/415418|User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0&amp;Accept-Encoding=gzip,deflate&amp;DNT=1&amp;Referer=http://www.tunovela.cc/capitulo/yo-me-llamo-2017-capitulo-1/</link>
 <thumbnail>http://www.lg.com/es/mp-resources/images/posventa/microsites/television/canal-la-1-hd-desaparece-sintonizar/la-1-HD-desaparece-mayo-2015-sintonizar_1429.jpg</thumbnail>
 <fanart>http://tecnotv.info/plugin/fanart.jpg</fanart>
 <info></info>
