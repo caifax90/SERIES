@@ -47,7 +47,17 @@
 <thumbnail>http://y.cdn.entutele.com/media/channels/big/golden-hd.gif</thumbnail></item>
 
 
-
+<item>
+<title>liveonlinetv</title>
+<link>$doregex[get_sxstream]|User-Agent=iPhone</link>
+<regex>
+<name>get_sxstream</name>
+<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+<page>http://www.tunovela.cc/embed/415418/</page>
+<referer>http://www.tunovela.cc/capitulo/yo-me-llamo-2017-capitulo-1/</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36</agent>
+</regex>
+</item>
 
 <item>
 <title>YO ME LLAMO</title>
