@@ -49,12 +49,12 @@
 
 
 <item>
-<title>tunovela.cc| urlresolver</title>                   
+<title>CAPITULO 10</title>                   
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://www.tunovela.cc/embed/332260/'):
+def GetLSProData(page_data,Cookie_Jar,m,url='http://streamplay.to/embed-pyljno1itg04-740x360.html'):
     import urlresolver
     u = urlresolver.resolve(url)
     return u
