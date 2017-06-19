@@ -40,7 +40,7 @@
 <regex>
 <name>m3u8</name>
 <expres>ea \+ "(.*?)"</expres>
-<page>http://www.tunovela.cc/embed/415418/</page>
+<page>https://mdstrm.com/embed/593dd1b527dc08c4105892b8?player=57f40bcedc5b9f3075c49d09</page>
 <agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
 <referer>http://www.tunovela.cc/capitulo/yo-me-llamo-2017-capitulo-1/</referer>
 </regex>
@@ -59,7 +59,7 @@
 
 <item>
 <title>CAPITULO 12</title>
-<urlsolve>http://gamovideo.com/embed-edyd6kh9b5ko-600x400.html</urlsolve>
+<urlsolve>https://mdstrm.com/embed/593dd1b527dc08c4105892b8?player=57f40bcedc5b9f3075c49d09</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
@@ -68,7 +68,7 @@
 
 <item>
 <title>SUSO</title>
-<urlsolve>https://mdstrm.com/embed/58d84ccdc4e00ed92da3edca/mse/true|</urlsolve>
+<urlsolve>https://mdstrm.com/embed/593dd1b527dc08c4105892b8?player=57f40bcedc5b9f3075c49d09|</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
