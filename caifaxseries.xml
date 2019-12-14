@@ -30,23 +30,65 @@
 <item>
 
 <title>CAPITULO 39</title>
-<link>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</link>
+<url>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</url>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
 <info></info>
+</item><item>
+
+
+
+
+
+
+
+<item>
+<title>CAPITULO 38</title>
+<link>$doregex[video] playpath=$doregex[path] live=1 timeout=20 swfVfy=1 swfUrl=http://gamovideo.com/player61/jwplayer.flash.swf pageUrl=http://gamovideo.com/jbl69k6280a6</link>
+
+<regex>
+<name>video</name>
+<expres>file: "(rtmp.*?h=.*?)\/</expres>
+<page>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>path</name>
+<expres>file: "rtmp.*?h=.*?\/(.*?)"\W</expres>
+<page>http://gamovideo.com/jbl69k6280a6</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
 </item>
 
+<title>CAPITULO 39</title>
+<urlsolve>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</urlsolve>
+<thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
+<fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
+<year></year>
+<info></info>
+</item><item>
 
+<item>
+<title>SUSO</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='https://mdstrm.com/embed/593dd1b527dc08c4105892b8?player=57f40bcedc5b9f3075c49d09'): 
+    import urlresolver
+    u = urlresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/23_paces_to_baker_street-243340430-large.jpg</thumbnail>
+<fanart>http://pics.filmaffinity.com/23_paces_to_baker_street-243340430-large.jpg</fanart>
 </item>
-
-
-
-
-
 
 
 
 </items>
-</channel>
  
