@@ -23,7 +23,6 @@
 
 
 
-
 <item>
 
 <title>CAPITULO 340</title>
@@ -34,7 +33,6 @@
 <info></info>
 
 </item> 
-</channel>
 
 
 
@@ -92,7 +90,4 @@ def GetLSProData(page_data,Cookie_Jar,m,url='https://mdstrm.com/embed/593dd1b527
 
 
 </items>
-
-</channel>
-
  
