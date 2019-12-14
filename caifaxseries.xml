@@ -50,7 +50,7 @@
 <regex>
 <name>video</name>
 <expres>file: "(rtmp.*?h=.*?)\/</expres>
-<page>http://gamovideo.com/jbl69k6280a6</page>
+<page>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</page>
 <agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
 </regex>
 
