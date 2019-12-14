@@ -21,7 +21,7 @@
 
 
 <channel>
-<name>[COLOR lime]•[/COLOR][COLOR deepskyblue]SUSO 4444444[/COLOR]</name>
+<name>[COLOR lime]•[/COLOR][COLOR deepskyblue]SUSO[/COLOR]</name>
 <Thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <items>
@@ -29,13 +29,16 @@
 
 <item>
 
-<title>CAPITULO 39</title>
-<url>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</url>
+<title>CAPITULO 340</title>
+<urlresolver>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</urlresolver>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
 <info></info>
-</item><item>
+
+</item> 
+
+
 
 
 
@@ -63,7 +66,7 @@
 </item>
 
 <title>CAPITULO 39</title>
-<urlsolve>ftp://51.77.67.67/01%20SERIES%20Y%20NOVELAS/3%20CAINES/Temporada%201/1x01.mp4</urlsolve>
+<urlsolve>https://mdstrm.com/embed/593dd1b527dc08c4105892b8?player=57f40bcedc5b9f3075c49d09</urlsolve>
 <thumbnail>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</thumbnail>
 <fanart>http://seriesenhdonline.com/wp-content/uploads/2016/07/9722683.png</fanart>
 <year></year>
